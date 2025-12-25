@@ -48,17 +48,17 @@ TXT-based datasets are directly used without conversion to CSV.
 
 ## 📦 Install and Setup
 
-1) Prerequisites
+1) Prerequisites:
 - Python 3.8+
 - pip package manager
 
-2) Install Dependencies 
+2) Install Dependencies :
 pip install -r requirements.txt
 
-3)▶️ Running the Application
+3) ▶️ Running the Application:
  streamlit run app.py
 
-The application opens in the browser at:
+4) The application opens in the browser at:
 
 http://localhost:8501
 
@@ -67,13 +67,21 @@ http://localhost:8501
 ## 🏗️ Model Architecture
 
 Text Input
+
    ↓
+   
 Text Cleaning & Preprocessing
+
    ↓
+   
 TF-IDF Vectorization
+
    ↓
+   
 Logistic Regression Classifier
+
    ↓
+   
 Predicted Movie Genre
 
 ---
@@ -131,7 +139,9 @@ This project is licensed under the MIT License.
 
 ---
 
-## This project successfully demonstrates how NLP and Machine Learning can be used to classify movie genres from textual descriptions.
+## 📈 Conclusion
+
+This project successfully demonstrates how NLP and Machine Learning can be used to classify movie genres from textual descriptions.
 It fulfills CodSoft Machine Learning Internship – Task 1 requirements and showcases practical ML implementation with a user-friendly interface.
 
 ---
