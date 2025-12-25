@@ -15,9 +15,8 @@ A Streamlit web interface is provided for real-time prediction.
 
 ---
 
-## 
-🛠️ Tech Used 
-Python
+## 🛠️ Tech Used 
+- Python
 - Machine Learning
 - Scikit-learn
 - NLP Technique
@@ -39,8 +38,8 @@ Using NLP techniques, textual data is converted into numerical vectors, which ar
 
 ---
 
-##  
-⚙️ Project Setup
+##  ⚙️ Project Setup
+
 The project follows a modular structure separating the machine learning logic and the user interface.
 TXT-based datasets are directly used without conversion to CSV.
 
@@ -53,9 +52,11 @@ TXT-based datasets are directly used without conversion to CSV.
 - pip package manager
 
 2) Install Dependencies :
+
 pip install -r requirements.txt
 
 3) ▶️ Running the Application:
+
  streamlit run app.py
 
 4) The application opens in the browser at:
